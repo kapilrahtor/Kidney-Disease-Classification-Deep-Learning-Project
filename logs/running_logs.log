@@ -71,3 +71,680 @@ x=========x]
 [2024-01-09 22:00:30,506: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
 
 x=========x]
+[2024-01-11 20:54:21,920: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-11 20:54:22,320: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 20:54:22,324: INFO: common: created directory at: artifacts]
+[2024-01-11 20:54:46,900: INFO: common: json file saved at: scores.json]
+[2024-01-11 20:54:52,717: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-11 20:54:53,742: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpwiabdn19\model\data\model\assets]
+[2024-01-11 21:05:19,737: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-11 21:05:19,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 21:05:19,744: INFO: common: created directory at: artifacts]
+[2024-01-11 21:05:42,482: INFO: common: json file saved at: scores.json]
+[2024-01-11 21:06:01,851: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /rathorkapil18/Kidney-Disease-Classification-Deep-Learning-Project.mlflow/api/2.0/mlflow/runs/create]
+[2024-01-11 21:06:06,294: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-11 21:06:07,305: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpu8cqjyoj\model\data\model\assets]
+[2024-01-12 10:35:29,121: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 10:35:29,149: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 10:35:29,151: INFO: common: created directory at: artifacts]
+[2024-01-12 10:35:47,324: INFO: common: json file saved at: scores.json]
+[2024-01-12 10:35:51,251: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 10:35:51,925: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp_3tvfkir\model\data\model\assets]
+[2024-01-12 10:38:04,807: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 10:38:04,814: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 10:38:04,816: INFO: common: created directory at: artifacts]
+[2024-01-12 10:38:21,666: INFO: common: json file saved at: scores.json]
+[2024-01-12 10:38:24,160: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 10:38:24,781: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpqm3rnj9f\model\data\model\assets]
+[2024-01-12 10:39:51,367: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 10:39:51,380: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 10:39:51,380: INFO: common: created directory at: artifacts]
+[2024-01-12 10:40:08,592: INFO: common: json file saved at: scores.json]
+[2024-01-12 10:40:11,152: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 10:40:11,754: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpd1uvnaam\model\data\model\assets]
+[2024-01-12 12:09:55,745: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 12:09:55,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:09:55,759: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:09:55,759: INFO: common: created directory at: artifacts]
+[2024-01-12 12:09:55,759: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 12:09:55,762: INFO: dtat_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:10:15,464: ERROR: main: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None))]
+Traceback (most recent call last):
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\util\ssl_.py", line 470, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\util\ssl_.py", line 514, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\util\ssl_.py", line 470, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\urllib3\util\ssl_.py", line 514, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 31, in download_file
+    raise e
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 161, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None))
+[2024-01-12 12:12:20,115: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 12:12:20,117: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:12:20,117: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:12:20,117: INFO: common: created directory at: artifacts]
+[2024-01-12 12:12:20,117: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 12:12:20,117: INFO: dtat_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:12:23,668: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:12:23,668: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 12:18:36,108: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 12:18:36,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:18:36,114: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:18:36,114: INFO: common: created directory at: artifacts]
+[2024-01-12 12:18:36,116: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 12:18:36,116: INFO: dtat_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:18:38,378: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:18:38,378: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 12:49:56,666: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 12:49:56,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:49:56,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:49:56,670: INFO: common: created directory at: artifacts]
+[2024-01-12 12:49:56,670: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 12:49:56,670: INFO: dtat_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:49:58,864: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:49:58,868: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 12:56:04,480: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 12:56:04,487: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:56:04,502: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:56:04,502: INFO: common: created directory at: artifacts]
+[2024-01-12 12:56:04,504: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 12:56:04,504: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:56:05,504: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:56:05,505: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 12:57:32,343: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 12:57:32,346: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:57:32,349: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:57:32,349: INFO: common: created directory at: artifacts]
+[2024-01-12 12:57:32,351: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 12:57:32,351: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:57:33,302: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 12:57:34,665: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 12:57:34,665: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-12 12:57:34,669: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:57:34,673: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:57:34,673: INFO: common: created directory at: artifacts]
+[2024-01-12 12:57:34,673: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-12 12:57:35,303: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-12 12:57:36,664: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 12:57:36,670: INFO: main: >>>>>>> stage Training started]
+[2024-01-12 12:57:36,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:57:36,682: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:57:36,682: INFO: common: created directory at: artifacts]
+[2024-01-12 12:57:36,687: INFO: common: created directory at: artifacts\training]
+[2024-01-12 12:58:42,556: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 12:58:42,558: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-12 12:58:42,561: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 12:58:42,571: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 12:58:42,573: INFO: common: created directory at: artifacts]
+[2024-01-12 12:59:02,468: INFO: common: json file saved at: scores.json]
+[2024-01-12 12:59:02,468: INFO: common: json file saved at: scores.json]
+[2024-01-12 12:59:05,140: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 12:59:05,889: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpauprkgym\model\data\model\assets]
+[2024-01-12 12:59:19,471: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\7d212ecc20de4013bb7ae5e2b6290e99\artifacts\model\data]
+[2024-01-12 12:59:19,476: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\7d212ecc20de4013bb7ae5e2b6290e99\artifacts\model\data\model]
+[2024-01-12 12:59:19,479: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\7d212ecc20de4013bb7ae5e2b6290e99\artifacts\model\data\model\assets]
+[2024-01-12 12:59:19,479: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\7d212ecc20de4013bb7ae5e2b6290e99\artifacts\model\data\model\variables]
+[2024-01-12 12:59:19,624: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:06:02,926: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 13:06:02,928: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:06:02,930: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:06:02,930: INFO: common: created directory at: artifacts]
+[2024-01-12 13:06:02,931: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 13:06:02,931: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:06:03,759: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:06:04,323: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:06:04,323: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-12 13:06:04,338: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:06:04,338: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:06:04,338: INFO: common: created directory at: artifacts]
+[2024-01-12 13:06:04,338: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-12 13:06:04,777: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-12 13:06:06,203: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:06:06,203: INFO: main: >>>>>>> stage Training started]
+[2024-01-12 13:06:06,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:06:06,203: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:06:06,203: INFO: common: created directory at: artifacts]
+[2024-01-12 13:06:06,203: INFO: common: created directory at: artifacts\training]
+[2024-01-12 13:06:57,188: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:06:57,188: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-12 13:06:57,188: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:06:57,202: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:06:57,204: INFO: common: created directory at: artifacts]
+[2024-01-12 13:07:13,907: INFO: common: json file saved at: scores.json]
+[2024-01-12 13:07:13,907: INFO: common: json file saved at: scores.json]
+[2024-01-12 13:07:15,458: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 13:07:16,074: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp1767stl8\model\data\model\assets]
+[2024-01-12 13:07:24,398: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\a290d1c3a6d14117b0c775349063ab38\artifacts\model\data]
+[2024-01-12 13:07:24,398: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\a290d1c3a6d14117b0c775349063ab38\artifacts\model\data\model]
+[2024-01-12 13:07:24,407: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\a290d1c3a6d14117b0c775349063ab38\artifacts\model\data\model\assets]
+[2024-01-12 13:07:24,412: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\a290d1c3a6d14117b0c775349063ab38\artifacts\model\data\model\variables]
+[2024-01-12 13:07:24,495: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:13:16,602: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 13:13:16,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:13:16,617: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:13:16,617: INFO: common: created directory at: artifacts]
+[2024-01-12 13:13:16,633: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 13:13:16,633: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:13:17,715: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:13:18,578: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:13:18,578: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-12 13:13:18,581: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:13:18,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:13:18,583: INFO: common: created directory at: artifacts]
+[2024-01-12 13:13:18,583: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-12 13:13:19,131: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-12 13:13:20,137: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:13:20,137: INFO: main: >>>>>>> stage Training started]
+[2024-01-12 13:13:20,144: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:13:20,146: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:13:20,147: INFO: common: created directory at: artifacts]
+[2024-01-12 13:13:20,147: INFO: common: created directory at: artifacts\training]
+[2024-01-12 13:15:15,015: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:15:15,015: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-12 13:15:15,015: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:15:15,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:15:15,031: INFO: common: created directory at: artifacts]
+[2024-01-12 13:15:33,727: INFO: common: json file saved at: scores.json]
+[2024-01-12 13:15:33,727: INFO: common: json file saved at: scores.json]
+[2024-01-12 13:15:35,288: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 13:15:35,915: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp4kwkzz41\model\data\model\assets]
+[2024-01-12 13:15:43,709: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\01ce3c51626f4d0f8bf044ae403f22e7\artifacts\model\data]
+[2024-01-12 13:15:43,709: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\01ce3c51626f4d0f8bf044ae403f22e7\artifacts\model\data\model]
+[2024-01-12 13:15:43,709: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\01ce3c51626f4d0f8bf044ae403f22e7\artifacts\model\data\model\assets]
+[2024-01-12 13:15:43,725: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\01ce3c51626f4d0f8bf044ae403f22e7\artifacts\model\data\model\variables]
+[2024-01-12 13:15:43,813: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:19:51,716: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 13:19:51,716: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:19:51,716: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:19:51,716: INFO: common: created directory at: artifacts]
+[2024-01-12 13:19:51,716: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 13:19:51,716: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:19:52,534: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:19:52,941: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:19:52,941: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-12 13:19:52,941: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:19:52,941: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:19:52,941: INFO: common: created directory at: artifacts]
+[2024-01-12 13:19:52,957: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-12 13:19:53,376: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-12 13:19:53,803: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:19:53,803: INFO: main: >>>>>>> stage Training started]
+[2024-01-12 13:19:53,803: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:19:53,803: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:19:53,803: INFO: common: created directory at: artifacts]
+[2024-01-12 13:19:53,803: INFO: common: created directory at: artifacts\training]
+[2024-01-12 13:21:43,382: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:21:43,382: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-12 13:21:43,391: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:21:43,395: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:21:43,396: INFO: common: created directory at: artifacts]
+[2024-01-12 13:22:02,337: INFO: common: json file saved at: scores.json]
+[2024-01-12 13:22:02,348: INFO: common: json file saved at: scores.json]
+[2024-01-12 13:22:04,088: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 13:22:04,743: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp22akwor2\model\data\model\assets]
+[2024-01-12 13:22:12,337: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\984f8177e4e24cb287e1dbd543f5b8be\artifacts\model\data]
+[2024-01-12 13:22:12,337: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\984f8177e4e24cb287e1dbd543f5b8be\artifacts\model\data\model]
+[2024-01-12 13:22:12,337: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\984f8177e4e24cb287e1dbd543f5b8be\artifacts\model\data\model\assets]
+[2024-01-12 13:22:12,345: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\984f8177e4e24cb287e1dbd543f5b8be\artifacts\model\data\model\variables]
+[2024-01-12 13:22:12,429: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 13:26:39,170: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 13:26:39,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 13:26:39,170: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 13:26:39,170: INFO: common: created directory at: artifacts]
+[2024-01-12 13:26:39,170: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 13:26:39,170: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:26:40,006: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 13:26:40,007: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 14:03:21,213: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 14:03:21,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:03:21,240: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:03:21,240: INFO: common: created directory at: artifacts]
+[2024-01-12 14:03:21,240: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 14:03:21,240: INFO: dtat_ingestion: Downloading data from https://drive.google.com/file/d/1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:03:23,198: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/file/d/1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:03:23,198: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 14:05:19,141: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 14:05:19,141: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:05:19,141: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:05:19,141: INFO: common: created directory at: artifacts]
+[2024-01-12 14:05:19,141: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 14:05:19,141: INFO: dtat_ingestion: Downloading data from https://drive.google.com/file/d/1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:05:21,086: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/file/d/1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:05:21,102: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 14:06:28,569: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 14:06:28,584: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:06:28,584: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:06:28,584: INFO: common: created directory at: artifacts]
+[2024-01-12 14:06:28,584: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 14:06:28,584: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:06:29,404: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:06:29,404: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "e:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\dtat_ingestion.py", line 43, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\KAPIL\anaconda3\envs\kidney\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-01-12 14:08:01,675: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 14:08:01,690: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:08:01,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:08:01,690: INFO: common: created directory at: artifacts]
+[2024-01-12 14:08:01,690: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 14:08:01,697: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:08:02,526: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:08:03,259: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:08:03,259: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-12 14:08:03,259: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:08:03,275: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:08:03,275: INFO: common: created directory at: artifacts]
+[2024-01-12 14:08:03,277: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-12 14:08:03,736: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-12 14:08:04,616: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:08:04,617: INFO: main: >>>>>>> stage Training started]
+[2024-01-12 14:08:04,620: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:08:04,622: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:08:04,623: INFO: common: created directory at: artifacts]
+[2024-01-12 14:08:04,623: INFO: common: created directory at: artifacts\training]
+[2024-01-12 14:09:46,786: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:09:46,786: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-12 14:09:46,802: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:09:46,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:09:46,802: INFO: common: created directory at: artifacts]
+[2024-01-12 14:10:05,528: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:10:05,528: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:10:07,072: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 14:10:07,721: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp_4nfbgnk\model\data\model\assets]
+[2024-01-12 14:10:17,216: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\ef12e9c8bc1e4d57b0046f82346128b8\artifacts\model\data]
+[2024-01-12 14:10:17,216: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\ef12e9c8bc1e4d57b0046f82346128b8\artifacts\model\data\model]
+[2024-01-12 14:10:17,216: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\ef12e9c8bc1e4d57b0046f82346128b8\artifacts\model\data\model\assets]
+[2024-01-12 14:10:17,216: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\ef12e9c8bc1e4d57b0046f82346128b8\artifacts\model\data\model\variables]
+[2024-01-12 14:10:17,302: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:11:56,187: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:11:56,187: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:11:56,187: INFO: common: created directory at: artifacts]
+[2024-01-12 14:11:56,187: INFO: common: created directory at: artifacts\training]
+[2024-01-12 14:22:53,090: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:22:53,093: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:22:53,095: INFO: common: created directory at: artifacts]
+[2024-01-12 14:25:08,061: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:25:08,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:25:08,066: INFO: common: created directory at: artifacts]
+[2024-01-12 14:25:25,394: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:25:28,829: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 14:25:29,530: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpfwyaotmp\model\data\model\assets]
+[2024-01-12 14:33:47,590: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-12 14:33:47,590: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:33:47,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:33:47,605: INFO: common: created directory at: artifacts]
+[2024-01-12 14:33:47,605: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-12 14:33:47,605: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:33:48,427: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-12 14:33:49,033: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:33:49,034: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-12 14:33:49,036: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:33:49,039: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:33:49,039: INFO: common: created directory at: artifacts]
+[2024-01-12 14:33:49,039: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-12 14:33:49,492: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-12 14:33:50,805: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:33:50,805: INFO: main: >>>>>>> stage Training started]
+[2024-01-12 14:33:50,820: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:33:50,826: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:33:50,827: INFO: common: created directory at: artifacts]
+[2024-01-12 14:33:50,828: INFO: common: created directory at: artifacts\training]
+[2024-01-12 14:35:37,368: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:35:37,368: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-12 14:35:37,368: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:35:37,368: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:35:37,368: INFO: common: created directory at: artifacts]
+[2024-01-12 14:35:55,858: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:35:55,859: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:35:57,480: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 14:35:58,121: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp21i4nn6b\model\data\model\assets]
+[2024-01-12 14:36:07,125: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\290f3cb8b2784711a30ea8b1ef794ecc\artifacts\model\data]
+[2024-01-12 14:36:07,136: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\290f3cb8b2784711a30ea8b1ef794ecc\artifacts\model\data\model]
+[2024-01-12 14:36:07,137: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\290f3cb8b2784711a30ea8b1ef794ecc\artifacts\model\data\model\assets]
+[2024-01-12 14:36:07,142: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\290f3cb8b2784711a30ea8b1ef794ecc\artifacts\model\data\model\variables]
+[2024-01-12 14:36:07,221: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-12 14:37:51,971: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:37:51,977: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:37:51,978: INFO: common: created directory at: artifacts]
+[2024-01-12 14:38:10,182: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:38:13,316: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 14:38:13,966: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmplc_jmajt\model\data\model\assets]
+[2024-01-12 14:43:34,319: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:43:34,322: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:43:34,323: INFO: common: created directory at: artifacts]
+[2024-01-12 14:43:51,178: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:43:53,695: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 14:43:54,266: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp2dwwc72r\model\data\model\assets]
+[2024-01-12 14:47:16,379: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:47:16,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:47:16,384: INFO: common: created directory at: artifacts]
+[2024-01-12 14:47:34,549: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:47:37,215: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 14:47:37,847: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpxa_wl8wa\model\data\model\assets]
+[2024-01-12 14:53:28,265: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-12 14:53:28,272: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-12 14:53:28,272: INFO: common: created directory at: artifacts]
+[2024-01-12 14:53:49,502: INFO: common: json file saved at: scores.json]
+[2024-01-12 14:53:54,342: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-12 14:53:55,208: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp1b4inzss\model\data\model\assets]
+[2024-01-13 09:50:44,079: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 09:50:44,425: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 09:50:44,442: INFO: common: created directory at: artifacts]
+[2024-01-13 09:51:04,236: INFO: common: json file saved at: scores.json]
+[2024-01-13 09:51:08,065: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-13 09:51:08,732: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmp8fuz9jnd\model\data\model\assets]
+[2024-01-13 09:57:02,664: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-13 09:57:02,664: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 09:57:02,679: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 09:57:02,679: INFO: common: created directory at: artifacts]
+[2024-01-13 09:57:02,679: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-13 09:57:02,679: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-13 09:57:03,499: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-13 09:57:04,592: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 09:57:04,592: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-13 09:57:04,592: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 09:57:04,606: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 09:57:04,608: INFO: common: created directory at: artifacts]
+[2024-01-13 09:57:04,608: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-13 09:57:05,079: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-13 09:57:06,088: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 09:57:06,088: INFO: main: >>>>>>> stage Training started]
+[2024-01-13 09:57:06,088: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 09:57:06,088: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 09:57:06,104: INFO: common: created directory at: artifacts]
+[2024-01-13 09:57:06,104: INFO: common: created directory at: artifacts\training]
+[2024-01-13 09:58:48,294: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 09:58:48,294: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-13 09:58:48,294: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 09:58:48,294: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 09:58:48,294: INFO: common: created directory at: artifacts]
+[2024-01-13 09:59:05,956: INFO: common: json file saved at: scores.json]
+[2024-01-13 09:59:05,956: INFO: common: json file saved at: scores.json]
+[2024-01-13 09:59:07,601: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-13 09:59:08,218: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpvkxipim2\model\data\model\assets]
+[2024-01-13 09:59:15,465: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\74b874f284544d5e8c5e5475030b5e80\artifacts\model\data]
+[2024-01-13 09:59:15,465: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\74b874f284544d5e8c5e5475030b5e80\artifacts\model\data\model]
+[2024-01-13 09:59:15,465: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\74b874f284544d5e8c5e5475030b5e80\artifacts\model\data\model\assets]
+[2024-01-13 09:59:15,486: INFO: dir_util: creating E:\Kidney-Disease-Classification-Deep-Learning-Project\mlruns\0\74b874f284544d5e8c5e5475030b5e80\artifacts\model\data\model\variables]
+[2024-01-13 09:59:15,596: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:00:07,599: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-13 12:00:07,748: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:00:07,748: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:00:07,748: INFO: common: created directory at: artifacts]
+[2024-01-13 12:00:07,761: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-13 12:00:07,764: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-13 12:00:08,728: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-13 12:00:09,322: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:00:09,322: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-13 12:00:09,331: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:00:09,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:00:09,331: INFO: common: created directory at: artifacts]
+[2024-01-13 12:00:09,331: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-13 12:00:10,033: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-13 12:00:10,996: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:00:10,996: INFO: main: >>>>>>> stage Training started]
+[2024-01-13 12:00:11,005: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:00:11,022: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:00:11,025: INFO: common: created directory at: artifacts]
+[2024-01-13 12:00:11,026: INFO: common: created directory at: artifacts\training]
+[2024-01-13 12:02:13,674: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:02:13,674: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-13 12:02:13,680: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:02:13,685: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:02:13,686: INFO: common: created directory at: artifacts]
+[2024-01-13 12:02:33,829: INFO: common: json file saved at: scores.json]
+[2024-01-13 12:02:33,829: INFO: common: json file saved at: scores.json]
+[2024-01-13 12:02:37,993: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-13 12:02:38,916: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpdwqbe27b\model\data\model\assets]
+[2024-01-13 12:03:09,243: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:03:58,746: INFO: main: >>>>>>> stage Data Ingestion stage started]
+[2024-01-13 12:03:58,764: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:03:58,767: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:03:58,767: INFO: common: created directory at: artifacts]
+[2024-01-13 12:03:58,769: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-13 12:03:58,769: INFO: dtat_ingestion: Downloading data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-13 12:03:59,743: INFO: dtat_ingestion: Downloaded data from https://drive.google.com/uc?/export=download&id=1V0n5SMeUwC5E6fnLSoUpNFUOCIzpHoy9 into file artifacts/data_ingestion/data.zip]
+[2024-01-13 12:04:00,318: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:04:00,318: INFO: main: >>>>>>> stage Prepare base model started]
+[2024-01-13 12:04:00,321: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:04:00,324: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:04:00,324: INFO: common: created directory at: artifacts]
+[2024-01-13 12:04:00,324: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-13 12:04:00,842: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-13 12:04:01,633: INFO: main: >>>>>>> stage Prepare base model completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:04:01,633: INFO: main: >>>>>>> stage Training started]
+[2024-01-13 12:04:01,649: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:04:01,657: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:04:01,660: INFO: common: created directory at: artifacts]
+[2024-01-13 12:04:01,663: INFO: common: created directory at: artifacts\training]
+[2024-01-13 12:07:03,751: INFO: main: >>>>>>> stage Training completed <<<<<<<<< 
+
+x=========x]
+[2024-01-13 12:07:03,751: INFO: main: >>>>>>> stage Evaluation stage started]
+[2024-01-13 12:07:03,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-13 12:07:03,766: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-13 12:07:03,767: INFO: common: created directory at: artifacts]
+[2024-01-13 12:07:23,560: INFO: common: json file saved at: scores.json]
+[2024-01-13 12:07:23,560: INFO: common: json file saved at: scores.json]
+[2024-01-13 12:07:27,435: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-13 12:07:28,156: INFO: builder_impl: Assets written to: C:\Users\KAPIL\AppData\Local\Temp\tmpnxt8fr8y\model\data\model\assets]
+[2024-01-13 12:07:57,293: INFO: main: >>>>>>> stage Evaluation stage completed <<<<<<<<< 
+
+x=========x]
