@@ -1013,3 +1013,11 @@ OSError: No file or directory found at E:\Kidney-Disease-Classification-Deep-Lea
 [2024-01-19 13:41:28,811: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 13:41:28] "POST /predict HTTP/1.1" 200 -]
 [2024-01-19 13:41:51,470: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 13:41:51] "POST /predict HTTP/1.1" 200 -]
 [2024-01-19 13:41:59,422: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 13:41:59] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 16:19:46,747: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.173:8080]
+[2024-01-19 16:19:46,851: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-19 16:19:50,293: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 16:19:50] "GET / HTTP/1.1" 200 -]
+[2024-01-19 16:20:03,223: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 16:20:03] "POST /predict HTTP/1.1" 200 -]
+[2024-01-19 16:20:12,847: INFO: _internal: 127.0.0.1 - - [19/Jan/2024 16:20:12] "POST /predict HTTP/1.1" 200 -]
