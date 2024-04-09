@@ -1,4 +1,4 @@
-# Kidney-Disease-Classification-Deep-Learning-Project
+# Kidney-Tumor-classification
 
 ## Workflows
 
